@@ -30,14 +30,50 @@ christmasCard2011
 ----
 
 Usage
-	The Escape key ends each (current) version of the program
-	The keys q, w, e, r, t, etc. and a, s, d, f, g, etc. do some stuff
+	The escape key and the 'Q' key ends the program
+	The 'Z' key freezes the screen momentarily and fills it
+		with a random colour
 	
-	Conor Stefanini, 25 May 2015
+	Conor Stefanini, 26 May 2015
 
 ----
 
 Change Log
+
+
+
+
+	2015-05-26
+		General Details
+			Created "christmasCard2011.c",
+				Got the two main functions in
+			Wrote the "makefile"
+		Usage
+			The escape key and the q key ends the program
+			The z key freezes the screen momentarily and 
+				fills it with a random colour
+		Changes to Source
+			Created "christmasCard2011.c" and copied in
+				drawXmasBalls, and drawSnowFlake
+				Modified the two functions slightly
+				Set up the Z key to freeze the screen
+				Set up the programs main screen to run
+			Wrote the "makefile", works when Allegro 4.4.2 is
+				installed
+			Wrote "tester.c" to test logic of functions in
+				christmasCard2011.c
+			Moved all old files and tester.c to the directory
+				"oldVersions"
+		To Do
+			Fix the comments in drawXmasBall (remove old version)
+			Fix comments in both functions
+			Continue with implementing old functions
+			Do little movie type things
+			Maybe screen buttons instead of keyboard input
+			Maybe start using tabs instead of spaces, I like
+				4 tab width for comments
+		
+		Conor Stefanini, 26 May 2015
 
 
 	2015-05-25_2
@@ -58,7 +94,8 @@ Change Log
 				signatures / changelog entries
 		
 		Conor Stefanini, 25 May 2015
-	
+
+
 	2015-05-25
 		General Details
 			First version of this git project
