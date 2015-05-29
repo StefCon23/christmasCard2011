@@ -30,18 +30,68 @@ christmasCard2011
 ----
 
 Usage
-	The escape key and the 'Q' key ends the program
-	The 'Z' key freezes the screen momentarily and fills it
+	'Esc' or 'Q' quits the program
+	'Z' freezes the screen  momentarily and fills it
 		with a random colour
+	'A' creates a "blue sky" effect
+	'S' creates a large XMAS string in an attempted circle
 	
-	Conor Stefanini, 26 May 2015
+	Conor Stefanini, 29 May 2015
 
 ----
 
 Change Log
 
+	Template:
+	YYYY-MM-DD
+		General Details
+		Usage
+		Changes to Source
+		To Do
+		Additional
+		
+		Signature
+	
+	
 
 
+
+
+
+	2015-05-28
+		General Details
+			Finished adding functions
+			Added some keyboard functionality
+		Usage
+			'Esc' or 'Q' quits the program
+			'Z' freezes the screen  momentarily and fills it
+				with a random colour
+			'A' creates a "blue sky" effect
+			'S' creates a large XMAS string in an attempted circle
+		Changes to Source
+			Added drawXmas function to christmasCard2011.c and
+				commented and formatted it a bit,
+				changed some stuff like '(1 * size)' to 'size'
+			Added drawTrees function to christmasCard2011.c, 
+				commented and formatted it,
+				renamed it drawTree,
+				shortened the tree trunk, 
+				slimmed the bottom leaves, 
+				worked out the trunk colours a bit
+			Added function trimCol to keep all colour values
+				between 0, and 255,
+				it's used in drawtrees function
+			Added drawCars function
+			Added Blue sky on 'A' key
+			Added big XMAS string on 'S' key
+			Updated the makefile to include the maths library
+		To Do
+			write a help function (--help)
+			write some command line functionality
+		
+		Conor Stefanini, 28/29 May 2015
+		
+		
 
 	2015-05-26
 		General Details
